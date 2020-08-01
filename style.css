@@ -1,18 +1,24 @@
 html {
-    width: 1440px;
+   width: 100%;
+   height: 3934px;
+}
+
+* {
+   margin: 0;
+   padding: 0;
 }
 
 /* Navbar */
 
 nav {
-    height: 100px;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    background: #E30D00;
-    width: 100%;
+   height: 100px;
+   position: absolute;
+   left: 0%;
+   right: 0%;
+   top: 0%;
+   bottom: 0%;
+   background: #E30D00;
+   width: 100%;
 }
 
 #logo {
@@ -24,122 +30,124 @@ nav {
 }
 
 #OurTeam {
-    position: absolute;
-    left: 32.36%;
-    right: 62.71%;
-    top: 45%;
-    bottom: 40%;
-    
-    font-family: kepler-std-semicondensed-dis,serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-    text-decoration: none;
+   position: absolute;
+   left: 32.36%;
+   right: 62.71%;
+   top: 45%;
+   bottom: 40%;
+   width: 70px;
+   
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 19px;
+   display: flex;
+   align-items: center;
+   text-transform: capitalize;
+   text-decoration: none;
 
-    color: #FFFFFF;
+   color: #FFFFFF;
 }
 
 #Keystone {
-    position: absolute;
-    left: 42.85%;
-    right: 52.43%;
-    top: 45%;
-    bottom: 40%;
+   position: absolute;
+   left: 42.85%;
+   right: 52.43%;
+   top: 45%;
+   bottom: 40%;
 
-    font-family: kepler-std-semicondensed-dis,serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-    text-decoration: none;
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 19px;
+   display: flex;
+   align-items: center;
+   text-transform: capitalize;
+   text-decoration: none;
 
-    color: #FFFFFF;
+   color: #FFFFFF;
 }
 
 #Projects {
-    position: absolute;
-    left: 53.12%;
-    right: 42.71%;
-    top: 45%;
-    bottom: 40%;
+   position: absolute;
+   left: 53.12%;
+   right: 42.71%;
+   top: 45%;
+   bottom: 40%;
 
-    font-family: kepler-std-semicondensed-dis,serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-    text-decoration: none;
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 19px;
+   display: flex;
+   align-items: center;
+   text-transform: capitalize;
+   text-decoration: none;
 
-    color: #FFFFFF;
+   color: #FFFFFF;
 }
 
 #Ratnajaali {
-    position: absolute;
-    left: 62.85%;
-    right: 31.88%;
-    top: 45%;
-    bottom: 40%;
+   position: absolute;
+   left: 62.85%;
+   right: 31.88%;
+   top: 45%;
+   bottom: 40%;
 
-    font-family: kepler-std-semicondensed-dis,serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-    text-decoration: none;
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 19px;
+   display: flex;
+   align-items: center;
+   text-transform: capitalize;
+   text-decoration: none;
 
-    color: #FFFFFF;
+   color: #FFFFFF;
 }
 
 #Contact {
-    position: absolute;
-    left: 73.68%;
-    right: 22.29%;
-    top: 45%;
-    bottom: 40%;
+   position: absolute;
+   left: 73.68%;
+   right: 22.29%;
+   top: 45%;
+   bottom: 40%;
 
-    font-family: kepler-std-semicondensed-dis,serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-    text-decoration: none;
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 19px;
+   display: flex;
+   align-items: center;
+   text-transform: capitalize;
+   text-decoration: none;
 
-    color: #FFFFFF;
+   color: #FFFFFF;
 }
 
 #CSROpportunities {
-    position: absolute;
-    left: 85%;
-    right: 5.62%;
-    top: 46%;
-    bottom: 39%;
+   position: absolute;
+   left: 85%;
+   right: 5.62%;
+   top: 46%;
+   bottom: 39%;
+   width: 150px;
 
-    font-family: kepler-std-semicondensed-dis,serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    text-transform: capitalize;
-    text-decoration: none;
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: center;
+   text-transform: capitalize;
+   text-decoration: none;
 
-    color: #FFFFFF;
+   color: #FFFFFF;
 }
 
 .rectangle {
@@ -148,6 +156,7 @@ nav {
    right: 3.89%;
    top: 33%;
    bottom: 25%;
+   width: 180px;
 
    border: 2px solid #FFFFFF;
    box-sizing: border-box;
@@ -157,44 +166,45 @@ nav {
 /* header */
 
 header {
-position: absolute;
-width: 950px;
-height: 75px;
-left: 250px;
-top: 180px;
+   position: absolute;
+   width: 65.97%;
+   height: 75px;
+   left: 17.36%;
+   top: 188px;
 
-font-family: kepler-std-semicondensed-dis,serif;
-font-style: normal;
-font-weight: bold;
-font-size: 76px;
-line-height: 91px;
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 76px;
+   line-height: 91px;
 
-color: #000000;
+   color: #000000;
 }
 
 /* About */
 
-.about p{
-    position: absolute;
-    width: 300px;
-    height: 309px;
-    left: 250px;
-    top: 335px;
+.about p {
+   position: absolute;
+   width: 20.83%;
+   height: 309px;
+   left: 17.36%;
+   top: 335px;
 
-    font-family: aktiv-grotesk, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   text-overflow: ellipsis;
 
-    color: #4F4F4F;
-    }
+   color: #4F4F4F;
+   }
 
 .imgOne {
    position: absolute;
-   width: 540px;
+   width: 37.5%;
    height: 463px;
-   left: 650px;
+   left: 45.13%;
    top: 335px;
 
    background-color: grey;
@@ -203,9 +213,9 @@ color: #000000;
 
 .button_BuyOurCurriculumNow {
    position: absolute;
-   width: 300px;
+   width: 20.83%;
    height: 48px;
-   left: 250px;
+   left: 17.36%;
    top: 686px;
    
    background: #E30D00;
@@ -214,9 +224,9 @@ color: #000000;
 
 .caption_BuyOurCurriculumNow {
    position: absolute;
-   width: 201px;
+   width: 13.95%;
    height: 16px;
-   left: 299px;
+   left: 20.76%;
    top: 702px;
 
    font-family: aktiv-grotesk, sans-serif;
@@ -232,9 +242,9 @@ color: #000000;
 
 .button_workWithUs{
    position: absolute;
-   width: 300px;
+   width: 20.83%;
    height: 48px;
-   left: 250px;
+   left: 17.36%;
    top: 750px;
 
    background: #FFFFFF;
@@ -246,9 +256,9 @@ color: #000000;
 
 .caption_workWithUs{
    position: absolute;
-   width: 160px;
+   width: 11.11%;
    height: 16px;
-   left: 345px;
+   left: 23.85%;
    top: 766px;
    
    font-family: aktiv-grotesk, sans-serif;
@@ -267,25 +277,25 @@ color: #000000;
 /* Projects */
 
 h2 {
-    position: absolute;
-    width: 300px;
-    height: 33px;
-    left: 890px;
-    top: 958px;
+   position: absolute;
+   width: 20.83%;
+   height: 33px;
+   left: 61.8%;
+   top: 958px;
 
-    font-family: Kepler Stdkepler-std-semicondensed-dis,serif;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 38px;
+   font-family: Kepler Stdkepler-std-semicondensed-dis,serif;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 38px;
 
-    color: #000000;
+   color: #000000;
 }
 
 .imgTwo {
    position: absolute;
-   width: 790px;
+   width: 54.86%;
    height: 767px;
-   left: 0px;
+   left: 0%;
    top: 958px;
 
    border-radius: 8px;
@@ -296,189 +306,188 @@ h2 {
 
 .logoTwo {
    position: absolute;
-   width: 36px;
+   width: 2.5%;
    height: 36px;
-   left: 890px;
+   left: 61.8%;
    top: 1023px;
 
    background-color: grey;
 }
 
 .ratnajaali h3 {
-    position: absolute;
-    width: 269px;
-    height: 21px;
-    left: 890px;
-    top: 1081px;
+   position: absolute;
+   width: 18.68%;
+   height: 21px;
+   left: 61.8%;
+   top: 1081px;
 
-    font-family: kepler-std-semicondensed-dis,serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 29px;
+   display: flex;
+   align-items: center;
+   text-transform: capitalize;
 
-    color: #000000;
+   color: #000000;
 }
 
 .ratnajaali p {
-    position: absolute;
-    width: 300px;
-    height: 131px;
-    left: 890px;
-    top: 1118px;
+   position: absolute;
+   width: 20.83%;
+   height: 9.09%;
+   left: 61.8%;
+   top: 1118px;
 
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 28px;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 28px;
 
-    color: #000000;
+   color: #000000;
 }
 
- .ratnajaali a{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 28px;
-    text-decoration: none;
+.ratnajaali a{
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 28px;
+   text-decoration: none;
 
-    color: #E30D00;
+   color: #E30D00;
 }
 
 /* keystone */
 
 .logoThree {
    position: absolute;
-   width: 44px;
+   width: 3.05%;
    height: 34px;
-   left: 890px;
+   left: 61.8%;
    top: 1289px;
 
    background-color: grey;
 }
 
 .keystone h3 {
-    position: absolute;
-    width: 131px;
-    height: 21px;
-    left: 890px;
-    top: 1347px;
+   position: absolute;
+   width: 9.09%;
+   height: 21px;
+   left: 61.8%;
+   top: 1347px;
 
-    font-family: kepler-std-semicondensed-dis,serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 29px;
+   display: flex;
+   align-items: center;
+   text-transform: capitalize;
 
-    color: #000000;
+   color: #000000;
 }
 
 .keystone p {
-    position: absolute;
-    width: 300px;
-    height: 132px;
-    left: 890px;
-    top: 1384px;
+   position: absolute;
+   width: 20.83%;
+   height: 132px;
+   left: 61.8%;
+   top: 1384px;
 
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 28px;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 28px;
 
-    color: #000000;
+   color: #000000;
 }
 
 .keystone a {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 28px;
-    text-decoration: none;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 28px;
+   text-decoration: none;
 
-    color: #E30D00;
+   color: #E30D00;
 }
 
 /* Outreach Project */
 
- .OutreachProject h3 {
-    position: absolute;
-    width: 243px;
-    height: 22px;
-    left: 890px;
-    top: 1556px;
-    
-    font-family: kepler-std-semicondensed-dis,serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-    
-    color: #000000;
- }
+.OutreachProject h3 {
+   position: absolute;
+   width: 16.875%;
+   height: 22px;
+   left: 61.8%;
+   top: 1556px;
+   
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 29px;
+   display: flex;
+   align-items: center;
+   text-transform: capitalize;
+   
+   color: #000000;
+}
 
- .OutreachProject p{
-    position: absolute;
-    width: 300px;
-    height: 131px;
-    left: 890px;
-    top: 1594px;
+.OutreachProject p{
+   position: absolute;
+   width: 20.83%;
+   height: 9.09%;
+   left: 61.8%;
+   top: 1594px;
 
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 28px;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 28px;
 
-    color: #000000;
- }
+   color: #000000;
+}
 
- .OutreachProject a{
-    
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 28px;
-    text-decoration: none;
-    
-    color: #E30D00;
- }
+.OutreachProject a{
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 28px;
+   text-decoration: none;
+   
+   color: #E30D00;
+}
 
 /* qoute */
 
- .qoute {
-    position: absolute;
-    width: 940px;
-    height: 329px;
-    left: 250px;
-    top: 1885px;
-    
-    font-family: kepler-std-semicondensed-dis,serif;
-    font-style: italic;
-    font-weight: 900;
-    font-size: 40px;
-    line-height: 48px;
-    text-align: center;
-    
-    color: #E30D00;
- }
+.qoute {
+   position: absolute;
+   width: 65.27%;
+   height: 329px;
+   left: 17.36%;
+   top: 1885px;
+   
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: italic;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   text-align: center;
+   
+   color: #E30D00;
+}
 
  /* MadhaviKapur */
 /*
- .logoThree {
+.logoThree {
    position: absolute;
    width: 113px;
    height: 113px;
@@ -487,249 +496,248 @@ h2 {
 
    border-radius: 60px;
    background-color: grey;
- }
+}
 
- .MadhaviKapur h3{
-    position: absolute;
-    width: 226px;
-    height: 24px;
-    left: 607px;
-    top: 2398px;
-    
-    font-family: kepler-std-semicondensed-dis,serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: capitalize;
-    
-    color: #4F4F4F;
- }
+.MadhaviKapur h3{
+   position: absolute;
+   width: 226px;
+   height: 24px;
+   left: 607px;
+   top: 2398px;
+   
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 29px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   text-transform: capitalize;
+   
+   color: #4F4F4F;
+}
 
- .MadhaviKapur h5{
-    position: absolute;
-    width: 154px;
-    height: 16px;
-    left: 643px;
-    top: 2426px;
-    
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 28px;
-    
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
-    color: #4F4F4F;
+.MadhaviKapur h5{
+   position: absolute;
+   width: 154px;
+   height: 16px;
+   left: 643px;
+   top: 2426px;
+   
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 28px;
+   
+   display: flex;
+   align-items: center;
+   text-align: center;
+   
+   color: #4F4F4F;
  } */
- 
+
  /* Our philosophy */
 
 .imgFour {
    position: absolute;
-   width: 790px;
+   width: 54.86%;
    height: 788px;
-   left: 650px;
+   left: 45.13%;
    top: 2602px;
 
    background-color: grey;
    border-radius: 8px;
    }
 
- .ourPhilosophy h2 {
-    position: absolute;
-    width: 300px;
-    height: 32px;
-    left: 250px;
-    top: 2602px;
-    
-    font-family: kepler-std-semicondensed-dis,serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 38px;
-    
-    color: #000000;
- }
+.ourPhilosophy h2 {
+   position: absolute;
+   width: 20.83%;
+   height: 32px;
+   left: 17.36%;
+   top: 2602px;
+   
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 38px;
 
- .ourPhilosophy p{
-    position: absolute;
-    width: 300px;
-    height: 722px;
-    left: 250px;
-    top: 2668px;
-    
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 28px;
-    
-    color: #000000;
- }
+   color: #000000;
+}
+
+.ourPhilosophy p{
+   position: absolute;
+   width: 20.83%;
+   height: 722px;
+   left: 17.36%;
+   top: 2668px;
+   
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 28px;
+   
+   color: #000000;
+}
 
  /* footer */
 
- footer {
-    position: absolute;
-    width: 1440px;
-    height: 424px;
-    left: 0px;
-    top: 3510px; 
+footer {
+   position: absolute;
+   width: 100%;
+   height: 424px;
+   left: 0%;
+   top: 3510px; 
 
-    background: #F2F2F2;
- }
+   background: #F2F2F2;
+}
 
- h3 {
-    position: absolute;
-    left: 19.58%;
-    right: 72.92%;
-    top: 18.87%;
-    bottom: 75.94%;
-    
-    font-family:kepler-std-semicondensed-dis,serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 29px;
-    text-transform: capitalize;
+h3 {
+   position: absolute;
+   left: 19.58%;
+   right: 72.92%;
+   top: 18.87%;
+   bottom: 75.94%;
+   
+   font-family:kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 29px;
+   text-transform: capitalize;
 
-    color: #333333;
- }
+   color: #333333;
+}
 
- .address {
-    position: absolute;
-    left: 19.58%;
-    right: 64.44%;
-    top: 33.49%;
-    bottom: 50.71%;
-    
-    font-family: aktiv-grotesk, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    
-    color: #333333;
- }
+.address {
+   position: absolute;
+   left: 19.58%;
+   right: 64.44%;
+   top: 33.49%;
+   bottom: 50.71%;
+   
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   
+   color: #333333;
+}
 
- .email {
-    position: absolute;
-    left: 19.58%;
-    right: 63.47%;
-    top: 58.73%;
-    bottom: 36.08%;
-    
-    font-family: aktiv-grotesk, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+.email {
+   position: absolute;
+   left: 19.58%;
+   right: 63.47%;
+   top: 58.73%;
+   bottom: 36.08%;
+   
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
 
-    color: #333333;
- }
+   color: #333333;
+}
 
- .number {
-    position: absolute;
-    left: 19.58%;
-    right: 66.81%;
-    top: 66.75%;
-    bottom: 28.77%;
-    
-    font-family: aktiv-grotesk, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    
-    color: #333333;
- }
+.number {
+   position: absolute;
+   left: 19.58%;
+   right: 66.81%;
+   top: 66.75%;
+   bottom: 28.77%;
+   
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   
+   color: #333333;
+}
 
- .allRightsReserved {
-    position: absolute;
-    left: 19.58%;
-    right: 62.64%;
-    top: 80.66%;
-    bottom: 15.09%;
-    
-    font-family: aktiv-grotesk, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 18px;
+.allRightsReserved {
+   position: absolute;
+   left: 19.58%;
+   right: 62.64%;
+   top: 80.66%;
+   bottom: 15.09%;
+   
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 18px;
 
-    color: #333333;
- }
+   color: #333333;
+}
 
- .Ratnajaali {
-    position: absolute;
-    left: 47.29%;
-    right: 46.46%;
-    top: 33.49%;
-    bottom: 61.56%;
-    
-    font-family: aktiv-grotesk, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    
-    color: #333333;
- }
+.Ratnajaali {
+   position: absolute;
+   left: 47.29%;
+   right: 46.46%;
+   top: 33.49%;
+   bottom: 61.56%;
+   
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   
+   color: #333333;
+}
 
- .Keystone {
-    position: absolute;
-    left: 47.29%;
-    right: 47.08%;
-    top: 42.22%;
-    bottom: 52.83%;
-    
-    font-family: aktiv-grotesk, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    
-    color: #333333;
- }
+.Keystone {
+   position: absolute;
+   left: 47.29%;
+   right: 47.08%;
+   top: 42.22%;
+   bottom: 52.83%;
+   
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   
+   color: #333333;
+}
 
- .Careers {
-    position: absolute;
-    left: 47.29%;
-    right: 47.71%;
-    top: 50.94%;
-    bottom: 44.58%;
-    
-    font-family: aktiv-grotesk, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    
-    color: #333333;
- }
+.Careers {
+   position: absolute;
+   left: 47.29%;
+   right: 47.71%;
+   top: 50.94%;
+   bottom: 44.58%;
+   
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   
+   color: #333333;
+}
 
- .CSR {
-    position: absolute;
-    left: 47.29%;
-    right: 47.71%;
-    top: 59.2%;
-    bottom: 36.32%;
-    
-    font-family: aktiv-grotesk, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    
-    color: #333333;
- }
- 
+.CSR {
+   position: absolute;
+   left: 47.29%;
+   right: 47.71%;
+   top: 59.2%;
+   bottom: 36.32%;
+   
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   
+   color: #333333;
+} 
 /* media queries */
 
